@@ -1,0 +1,6 @@
+D:\An3\Sem2\TSP Net\Lab1\bin\Debug\Lab1.exe.config
+D:\An3\Sem2\TSP Net\Lab1\bin\Debug\Lab1.exe
+D:\An3\Sem2\TSP Net\Lab1\bin\Debug\Lab1.pdb
+D:\An3\Sem2\TSP Net\Lab1\obj\Debug\Lab1.csprojAssemblyReference.cache
+D:\An3\Sem2\TSP Net\Lab1\obj\Debug\Lab1.exe
+D:\An3\Sem2\TSP Net\Lab1\obj\Debug\Lab1.pdb
