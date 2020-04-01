@@ -1,0 +1,13 @@
+D:\An3\Sem2\TSP Net\Proiect\ModelAndApi\bin\Debug\ModelAndApi.dll.config
+D:\An3\Sem2\TSP Net\Proiect\ModelAndApi\bin\Debug\ModelAndApi.dll
+D:\An3\Sem2\TSP Net\Proiect\ModelAndApi\bin\Debug\ModelAndApi.pdb
+D:\An3\Sem2\TSP Net\Proiect\ModelAndApi\bin\Debug\EntityFramework.dll
+D:\An3\Sem2\TSP Net\Proiect\ModelAndApi\bin\Debug\EntityFramework.SqlServer.dll
+D:\An3\Sem2\TSP Net\Proiect\ModelAndApi\bin\Debug\EntityFramework.xml
+D:\An3\Sem2\TSP Net\Proiect\ModelAndApi\bin\Debug\EntityFramework.SqlServer.xml
+D:\An3\Sem2\TSP Net\Proiect\ModelAndApi\obj\Debug\ModelAndApi.csprojAssemblyReference.cache
+D:\An3\Sem2\TSP Net\Proiect\ModelAndApi\obj\Debug\ModelAndApi.csproj.CopyComplete
+D:\An3\Sem2\TSP Net\Proiect\ModelAndApi\obj\Debug\ModelAndApi.dll
+D:\An3\Sem2\TSP Net\Proiect\ModelAndApi\obj\Debug\ModelAndApi.pdb
+D:\An3\Sem2\TSP Net\Proiect\ModelAndApi\bin\Debug\System.ServiceModel.Primitives.dll
+D:\An3\Sem2\TSP Net\Proiect\ModelAndApi\bin\Debug\System.ServiceModel.Primitives.pdb

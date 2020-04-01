@@ -1,0 +1,14 @@
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\bin\Debug\HostWCF.exe.config
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\bin\Debug\HostWCF.exe
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\bin\Debug\HostWCF.pdb
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\bin\Debug\EntityFramework.dll
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\bin\Debug\ObjectWCF.dll
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\bin\Debug\ModelAndApi.dll
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\bin\Debug\ObjectWCF.pdb
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\bin\Debug\EntityFramework.xml
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\bin\Debug\ModelAndApi.pdb
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\bin\Debug\ModelAndApi.dll.config
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.cache
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\obj\Debug\HostWCF.csproj.CopyComplete
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\obj\Debug\HostWCF.exe
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\obj\Debug\HostWCF.pdb

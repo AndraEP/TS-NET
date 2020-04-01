@@ -1,0 +1,11 @@
+D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\bin\Debug\ObjectWCF.dll
+D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\bin\Debug\ObjectWCF.pdb
+D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\bin\Debug\EntityFramework.dll
+D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\bin\Debug\ModelAndApi.dll
+D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\bin\Debug\ModelAndApi.pdb
+D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\bin\Debug\ModelAndApi.dll.config
+D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\bin\Debug\EntityFramework.xml
+D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\obj\Debug\ObjectWCF.csprojAssemblyReference.cache
+D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\obj\Debug\ObjectWCF.csproj.CopyComplete
+D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\obj\Debug\ObjectWCF.dll
+D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\obj\Debug\ObjectWCF.pdb
