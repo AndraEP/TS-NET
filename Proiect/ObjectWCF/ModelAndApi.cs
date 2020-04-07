@@ -9,34 +9,34 @@ namespace ObjectWCF
 {
     public class ModelAndApi : IMedia
     {
-        object IMedia.SaveMedia(string sqlCommand)
+        void IMedia.SaveMedia(string path, string events, string persons, string peisaj, string locatie, string altele, DateTime creationDate)
         {
             API api = new API();
-            return api.SaveMedia(sqlCommand);
+            api.SaveMedia(path, events, persons, peisaj, locatie, altele, creationDate);
         }
 
-        object IMedia.DeleteMedia(string sqlCommand, string path)
+        void IMedia.DeleteMedia(string path)
         {
             API api = new API();
-            return api.DeleteMedia(sqlCommand, path);
+            api.DeleteMedia(path);
         }
 
-        object IMedia.ShowGridData(string sqlCommand)
+        object IMedia.ShowGridData()
         {
             API api = new API();
-            return api.ShowGridData(sqlCommand);
+            return api.ShowGridData();
         }
 
-        object IMedia.ShowData(string sqlCommand)
+        object IMedia.ShowData()
         {
             API api = new API();
-            return api.ShowData(sqlCommand);
+            return api.ShowData();
         }
 
-        object IMedia.SaveFile(string sqlCommand)
+        string IMedia.SaveFile()
         {
             API api = new API();
-            return api.SaveFile(sqlCommand);
+            return api.SaveFile();
         }
     }
 }

@@ -1,0 +1,17 @@
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\bin\Debug\netcoreapp3.1\GrpcGreeterClient.exe
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\obj\Debug\netcoreapp3.1\GrpcGreeterClient.AssemblyInfoInputs.cache
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\obj\Debug\netcoreapp3.1\GrpcGreeterClient.AssemblyInfo.cs
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\obj\Debug\netcoreapp3.1\GrpcGreeterClient.csprojAssemblyReference.cache
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\obj\Debug\netcoreapp3.1\GrpcGreeterClient.csproj.CopyComplete
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\bin\Debug\netcoreapp3.1\GrpcGreeterClient.deps.json
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\bin\Debug\netcoreapp3.1\GrpcGreeterClient.runtimeconfig.json
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\bin\Debug\netcoreapp3.1\GrpcGreeterClient.runtimeconfig.dev.json
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\bin\Debug\netcoreapp3.1\GrpcGreeterClient.dll
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\bin\Debug\netcoreapp3.1\GrpcGreeterClient.pdb
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\obj\Debug\netcoreapp3.1\GrpcGreeterClient.dll
+D:\An3\Sem2\TSP Net\Lab7\GrpcGreeterClient\obj\Debug\netcoreapp3.1\GrpcGreeterClient.pdb

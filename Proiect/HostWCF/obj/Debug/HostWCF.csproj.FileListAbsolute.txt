@@ -12,3 +12,5 @@ D:\An3\Sem2\TSP Net\Proiect\HostWCF\obj\Debug\HostWCF.csprojAssemblyReference.ca
 D:\An3\Sem2\TSP Net\Proiect\HostWCF\obj\Debug\HostWCF.csproj.CopyComplete
 D:\An3\Sem2\TSP Net\Proiect\HostWCF\obj\Debug\HostWCF.exe
 D:\An3\Sem2\TSP Net\Proiect\HostWCF\obj\Debug\HostWCF.pdb
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\bin\Debug\EntityFramework.SqlServer.dll
+D:\An3\Sem2\TSP Net\Proiect\HostWCF\bin\Debug\EntityFramework.SqlServer.xml

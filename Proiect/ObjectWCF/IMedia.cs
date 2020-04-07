@@ -12,14 +12,14 @@ namespace ObjectWCF
     interface IMedia
     {
         [OperationContract]
-        object SaveMedia(string sqlCommand);
+        void SaveMedia(string path, string events, string persons, string peisaj, string locatie, string altele, DateTime creationDate);
         [OperationContract]
-        object DeleteMedia(string sqlCommand, string path);
+        void DeleteMedia(string path);
         [OperationContract]
-        object ShowGridData(string sqlCommand);
+        object ShowGridData();
         [OperationContract]
-        object ShowData(string sqlCommand);
+        object ShowData();
         [OperationContract]
-        object SaveFile(string sqlCommand);
+        string SaveFile();
     }
 }

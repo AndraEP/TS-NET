@@ -5,6 +5,8 @@ using System.IO;
 using System.Globalization;
 using System.Diagnostics;
 using System.Text;
+using System.Linq;
+using System.Collections.Generic;
 
 namespace ModelAndApi
 {
@@ -12,155 +14,77 @@ namespace ModelAndApi
     {
         SqlConnection connect = new SqlConnection("Data Source=DESKTOP-A6HN40I;Initial Catalog=ProiectMedia;Integrated Security=True;");
         SqlCommand command;
-        public object SaveMedia (string sql1)
+        public void SaveMedia (string path, string events, string persons, string peisaj, string locatie, string altele, DateTime creationDate)
         {
-            string result = "";
-            try
+            using (Model1Container context = new Model1Container())
             {
-                if (connect.State != ConnectionState.Open)
+                Media newMedia = new Media()
                 {
-                    connect.Open();
-                }
-                command = new SqlCommand(sql1, connect);
-                int x = command.ExecuteNonQuery();
-                result = x.ToString() + "record(s) affected.";
-                connect.Close();
-                return result;
-            }
-            catch (Exception except)
-            {
-                connect.Close();
-                result = except.Message;
-                return result;
-            }
-
-        }
-
-        public object DeleteMedia (string sql1, string pathToDelete)
-        {
-            string result = "";
-            try
-            {
-                if (connect.State != ConnectionState.Open)
-                {
-                    connect.Open();
-                }
-                command = new SqlCommand(sql1, connect);
-                command.Parameters.AddWithValue("@path", pathToDelete);
-                int x = command.ExecuteNonQuery();
-                result = x.ToString() + "record(s) affected.";
-                connect.Close();
-                return result;
-            }
-            catch (Exception except)
-            {
-                connect.Close();
-                result = except.Message;
-                return result;
-            }
-        }
-
-        public object ShowGridData (string sql1)
-        {
-            string result = "";
-            try
-            {
-                if (connect.State != ConnectionState.Open)
-                {
-                    connect.Open();
-                }
-                SqlDataAdapter dataAdapter = new SqlDataAdapter(sql1, connect);
-                SqlCommandBuilder commandBuilder = new SqlCommandBuilder(dataAdapter);
-                DataTable table = new DataTable
-                {
-                    Locale = CultureInfo.InvariantCulture
+                    Path = path,
+                    Moved = 0,
+                    Evenimente = events,
+                    Persoane = persons,
+                    Peisaje = peisaj,
+                    Locuri = locatie,
+                    Altele = altele,
+                    DataCreare = creationDate.ToString()
                 };
-                dataAdapter.Fill(table);
-                return table;
-
-            }
-            catch (Exception except)
-            {
-                connect.Close();
-                result = except.Message;
-                return result;
+                context.Media.Add(newMedia);
+                context.SaveChanges();
             }
         }
 
-        public object ShowData (string sql1)
+        public void DeleteMedia (string path)
+        {
+            using (Model1Container context = new Model1Container())
+            {
+                Media oldMedia = context.Media.First(x => x.Path == path);
+                context.Media.Remove(oldMedia);
+                context.SaveChanges();
+            }
+        }
+
+        public object ShowGridData ()
+        {
+            string result = "";
+            using (var context = new Model1Container())
+            {
+                foreach (var data in context.Media)
+                {
+                    result = result + data.ToString() + "\n";
+                }
+            }
+            return result;
+        }
+
+        public object ShowData ()
         {
             string result = "";
             string final = "";
-            try
+
+
+            using (Model1Container context = new Model1Container())
             {
-                if (connect.State != ConnectionState.Open)
+                foreach (var data in context.Media)
                 {
-                    connect.Open();
+                    result = result + data.ToString() + "\n";
                 }
-                command = new SqlCommand(sql1, connect);
-                int x = command.ExecuteNonQuery();
-                using (SqlDataReader reader = command.ExecuteReader())
-                {
-                    while (reader.Read())
-                    {
-                        result = result + "ID: " + reader["Id"].ToString() + "\n" +
-                            "Path: " + reader["Path"].ToString() + "\n" +
-                            "Moved: " + reader["Moved"].ToString() + "\n" +
-                            "Evenimente: " + reader["Evenimente"].ToString() + "\n" +
-                            "Persoane: " + reader["Persoane"].ToString() + "\n" +
-                            "Peisaje: " + reader["Peisaje"].ToString() + "\n" +
-                            "Locuri: " + reader["Locuri"].ToString() + "\n" +
-                            "Altele: " + reader["Altele"].ToString() + "\n" +
-                            "Data Creare: " + reader["DataCreare"].ToString() + "\n";
-                    }
-                    reader.Close();
-                }
-                final = x.ToString() + "record(s) affected.\n" + result;
-                connect.Close();
-                return final;
             }
-            catch (Exception except)
-            {
-                connect.Close();
-                result = except.Message;
-                return result;
-            }
+            return result;
         }
 
-        public object SaveFile (string sql1)
+        public string SaveFile ()
         {
-            string final = "";
-            try
+            string result = "";
+            using (Model1Container context = new Model1Container())
             {
-                if (connect.State != ConnectionState.Open)
+                foreach (var data in context.Media)
                 {
-                    connect.Open();
+                    result = result + data.ToString() + "\n";
                 }
-                SqlDataAdapter dataAdapter = new SqlDataAdapter(sql1, connect);
-                SqlCommandBuilder commandBuilder = new SqlCommandBuilder(dataAdapter);
-                DataTable table = new DataTable
-                {
-                    Locale = CultureInfo.InvariantCulture
-                };
-                dataAdapter.Fill(table);
-                string result = string.Empty;
-
-                foreach (DataColumn column in table.Columns)
-                {
-                    result += column.ColumnName + "\t\t";
-                }
-
-                result += "\n\n";
-                foreach (DataRow row in table.Rows)
-                {
-                    foreach (DataColumn column in table.Columns)
-                    {
-                        result += row[column.ColumnName].ToString() + "\t";
-                    }
-                    result += "\n";
-                }
-                string filename = @"D:\file.txt";
-                FileInfo fileInfo = new FileInfo(filename);
+            }
+            string filename = @"D:\file.txt";
+            FileInfo fileInfo = new FileInfo(filename);
                 if (fileInfo.Exists)
                 {
                     fileInfo.Delete();
@@ -175,16 +99,8 @@ namespace ModelAndApi
                     Byte[] data = new UTF8Encoding(true).GetBytes(result);
                     fs.Write(data, 0, data.Length);
                 }
-                final = "Data saved!";
-                connect.Close();
+                string final = "Data saved!";
                 return final;
-            }
-            catch (Exception except)
-            {
-                connect.Close();
-                final = except.Message;
-                return final;
-            }
         }
     }
 }

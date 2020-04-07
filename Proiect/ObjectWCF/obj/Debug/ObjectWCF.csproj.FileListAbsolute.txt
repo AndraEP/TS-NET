@@ -9,3 +9,5 @@ D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\obj\Debug\ObjectWCF.csprojAssemblyReferenc
 D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\obj\Debug\ObjectWCF.csproj.CopyComplete
 D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\obj\Debug\ObjectWCF.dll
 D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\obj\Debug\ObjectWCF.pdb
+D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\bin\Debug\EntityFramework.SqlServer.dll
+D:\An3\Sem2\TSP Net\Proiect\ObjectWCF\bin\Debug\EntityFramework.SqlServer.xml
