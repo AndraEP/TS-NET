@@ -1,0 +1,11 @@
+D:\An3\Sem2\TSP Net\Lab8\DataBasePostComment\obj\Debug\DataBasePostComment.csprojAssemblyReference.cache
+D:\An3\Sem2\TSP Net\Lab8\DataBasePostComment\bin\Debug\DataBasePostComment.dll.config
+D:\An3\Sem2\TSP Net\Lab8\DataBasePostComment\bin\Debug\DataBasePostComment.dll
+D:\An3\Sem2\TSP Net\Lab8\DataBasePostComment\bin\Debug\DataBasePostComment.pdb
+D:\An3\Sem2\TSP Net\Lab8\DataBasePostComment\bin\Debug\EntityFramework.dll
+D:\An3\Sem2\TSP Net\Lab8\DataBasePostComment\bin\Debug\EntityFramework.SqlServer.dll
+D:\An3\Sem2\TSP Net\Lab8\DataBasePostComment\bin\Debug\EntityFramework.xml
+D:\An3\Sem2\TSP Net\Lab8\DataBasePostComment\bin\Debug\EntityFramework.SqlServer.xml
+D:\An3\Sem2\TSP Net\Lab8\DataBasePostComment\obj\Debug\DataBasePostComment.csproj.CopyComplete
+D:\An3\Sem2\TSP Net\Lab8\DataBasePostComment\obj\Debug\DataBasePostComment.dll
+D:\An3\Sem2\TSP Net\Lab8\DataBasePostComment\obj\Debug\DataBasePostComment.pdb

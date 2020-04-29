@@ -1,0 +1,17 @@
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.exe
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.csprojAssemblyReference.cache
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.AssemblyInfoInputs.cache
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.AssemblyInfo.cs
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\bin\Debug\netcoreapp3.1\Grpc.Net.Client.dll
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\bin\Debug\netcoreapp3.1\Grpc.Net.Common.dll
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.csproj.CopyComplete
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.deps.json
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.runtimeconfig.json
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.runtimeconfig.dev.json
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.dll
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\bin\Debug\netcoreapp3.1\GrpcClient.pdb
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.dll
+D:\An3\Sem2\TSP Net\Lab8\GrpcClient\obj\Debug\netcoreapp3.1\GrpcClient.pdb
