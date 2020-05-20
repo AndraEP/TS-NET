@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Media" EntityType="Model1.Media" />
+  </EntityContainer>
+  <EntityType Name="Media">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Path" Type="String" Nullable="false" />
+    <Property Name="Moved" Type="Int32" Nullable="false" />
+    <Property Name="Evenimente" Type="String" Nullable="false" />
+    <Property Name="Persoane" Type="String" Nullable="false" />
+    <Property Name="Peisaje" Type="String" Nullable="false" />
+    <Property Name="Locuri" Type="String" Nullable="false" />
+    <Property Name="Altele" Type="String" Nullable="false" />
+    <Property Name="DataCreare" Type="String" Nullable="false" />
+  </EntityType>
+</Schema>

@@ -1,0 +1,86 @@
+﻿@page
+@model RazorPages.Pages.Medias.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+
+<form>
+    <p>
+        Title: <input type="text" asp-for="SearchString" />
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MediaDTO[0].Path)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MediaDTO[0].Moved)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MediaDTO[0].Evenimente)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MediaDTO[0].Persoane)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MediaDTO[0].Peisaje)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MediaDTO[0].Locuri)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MediaDTO[0].Altele)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MediaDTO[0].DataCreare)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.MediaDTO) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Path)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Moved)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Evenimente)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Persoane)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Peisaje)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Locuri)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Altele)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataCreare)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

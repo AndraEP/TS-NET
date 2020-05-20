@@ -1,0 +1,70 @@
+﻿@page
+@model RazorPages.Pages.Medias.EditModel
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>MediaDTO</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="MediaDTO.Id" />
+            <div class="form-group">
+                <label asp-for="MediaDTO.Path" class="control-label"></label>
+                <input asp-for="MediaDTO.Path" class="form-control" />
+                <span asp-validation-for="MediaDTO.Path" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MediaDTO.Moved" class="control-label"></label>
+                <input asp-for="MediaDTO.Moved" class="form-control" />
+                <span asp-validation-for="MediaDTO.Moved" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MediaDTO.Evenimente" class="control-label"></label>
+                <input asp-for="MediaDTO.Evenimente" class="form-control" />
+                <span asp-validation-for="MediaDTO.Evenimente" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MediaDTO.Persoane" class="control-label"></label>
+                <input asp-for="MediaDTO.Persoane" class="form-control" />
+                <span asp-validation-for="MediaDTO.Persoane" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MediaDTO.Peisaje" class="control-label"></label>
+                <input asp-for="MediaDTO.Peisaje" class="form-control" />
+                <span asp-validation-for="MediaDTO.Peisaje" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MediaDTO.Locuri" class="control-label"></label>
+                <input asp-for="MediaDTO.Locuri" class="form-control" />
+                <span asp-validation-for="MediaDTO.Locuri" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MediaDTO.Altele" class="control-label"></label>
+                <input asp-for="MediaDTO.Altele" class="form-control" />
+                <span asp-validation-for="MediaDTO.Altele" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MediaDTO.DataCreare" class="control-label"></label>
+                <input asp-for="MediaDTO.DataCreare" class="form-control" />
+                <span asp-validation-for="MediaDTO.DataCreare" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-page="./Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

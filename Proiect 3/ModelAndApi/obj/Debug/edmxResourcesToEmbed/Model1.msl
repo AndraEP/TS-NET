@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Model1StoreContainer" CdmEntityContainer="Model1Container">
+    <EntitySetMapping Name="Media">
+      <EntityTypeMapping TypeName="IsTypeOf(Model1.Media)">
+        <MappingFragment StoreEntitySet="Media">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Path" ColumnName="Path" />
+          <ScalarProperty Name="Moved" ColumnName="Moved" />
+          <ScalarProperty Name="Evenimente" ColumnName="Evenimente" />
+          <ScalarProperty Name="Persoane" ColumnName="Persoane" />
+          <ScalarProperty Name="Peisaje" ColumnName="Peisaje" />
+          <ScalarProperty Name="Locuri" ColumnName="Locuri" />
+          <ScalarProperty Name="Altele" ColumnName="Altele" />
+          <ScalarProperty Name="DataCreare" ColumnName="DataCreare" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
